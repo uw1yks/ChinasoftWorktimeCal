@@ -79,7 +79,6 @@ def get_userToken(emp_code):
     login_by_empCode_url = 'https://yihr.chinasoftinc.com:18010/ehr_saas/web/user/loginByEmpCode.jhtml'
     params = {
         'app': 'pc',
-        'newid': '0.5895570944220772',
     }
 
     json_data = {
